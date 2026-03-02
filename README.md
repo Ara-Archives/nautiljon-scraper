@@ -25,5 +25,5 @@ To install this project, follow these steps:
 Fetch only the series details:
 
 ```bash
-npm run dev -- nautiljon --slug=one_piece --detail
+npm run dev -- nautiljon --search "One Piece"
 ```
