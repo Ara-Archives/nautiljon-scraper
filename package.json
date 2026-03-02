@@ -1,0 +1,49 @@
+{
+  "name": "nautiljon-scraper",
+  "version": "1.0.0",
+  "description": "Nautiljon scraper to automatically collect and format anime, manga, and character data.",
+  "type": "module",
+  "keywords": [
+    "nautiljon",
+    "scraper",
+    "web-scraping",
+    "anime",
+    "manga",
+    "characters",
+    "data-extraction",
+    "crawler",
+    "automation"
+  ],
+  "homepage": "https://github.com/Ara-Archives/nautiljon-scraper#readme",
+  "bugs": {
+    "url": "https://github.com/Ara-Archives/nautiljon-scraper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ara-Archives/nautiljon-scraper.git"
+  },
+  "license": "MIT",
+  "author": "mgcodeur",
+  "main": "src/cli.ts",
+  "scripts": {
+    "dev": "tsx src/cli.ts",
+    "build": "tsc --outDir dist",
+    "format": "prettier --write ."
+  },
+  "bin": {
+    "nautiljon": "./dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "@types/yargs": "^17.0.35",
+    "prettier": "^3.8.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.3.0",
+    "playwright": "^1.58.1",
+    "yargs": "^18.0.0"
+  }
+}
